@@ -1,0 +1,29 @@
+Quiz July 11 - William O'Sullivan
+
+1. What is the difference between a class and an object?
+
+Object is an instance of a class, and a class is a template/blueprint.
+
+2. Give an example of an Attribute class. What does the attribute do?
+
+[Display(Name = "Last Name"),StringLength(50, MinimumLength=1)]
+An attribute provides metadata about an object, it give you more info and description about that object.
+
+3. What method is used to initialize an object or a class type? Give an example.
+
+Constructor method
+
+using System; 
+Class example1 {
+int roll; float marks;
+public example1() //constructor
+{ 
+roll=0; 
+marks=0.0; 
+}
+// other members 
+}
+
+
+Using "new"
+example1 obj1 = new example1 ();
